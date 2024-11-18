@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/tailwind.min.css" />
+    <script src="../tailwind.js"></script>
+    <script src="../tailwind.config.js"></script>
+    <title>Document</title>
+  </head>
+  <body
+    class="bg-orange-400 flex flex-col justify-center items-center h-screen"
+  >
+    <div id="wrapper" class="">
+      <div
+        id="container"
+        class="grid grid-cols-3 gap-3 w-fit mx-auto items-center justify-center py-5"
+      >
+        <button
+          class="btn-game w-32 h-32 bg-white shadow-lg rounded-xl text-5xl font-bold text-orange-800"
+          id="0"
+        ></button>
+        <button
+          class="btn-game w-32 h-32 bg-white shadow-lg rounded-xl text-5xl font-bold text-orange-800"
+          id="1"
+        ></button>
+        <button
+          class="btn-game w-32 h-32 bg-white shadow-lg rounded-xl text-5xl font-bold text-orange-800"
+          id="2"
+        ></button>
+        <button
+          class="btn-game w-32 h-32 bg-white shadow-lg rounded-xl text-5xl font-bold text-orange-800"
+          id="3"
+        ></button>
+        <button
+          class="btn-game w-32 h-32 bg-white shadow-lg rounded-xl text-5xl font-bold text-orange-800"
+          id="4"
+        ></button>
+        <button
+          class="btn-game w-32 h-32 bg-white shadow-lg rounded-xl text-5xl font-bold text-orange-800"
+          id="5"
+        ></button>
+        <button
+          class="btn-game w-32 h-32 bg-white shadow-lg rounded-xl text-5xl font-bold text-orange-800"
+          id="6"
+        ></button>
+        <button
+          class="btn-game w-32 h-32 bg-white shadow-lg rounded-xl text-5xl font-bold text-orange-800"
+          id="7"
+        ></button>
+        <button
+          class="btn-game w-32 h-32 bg-white shadow-lg rounded-xl text-5xl font-bold text-orange-800"
+          id="8"
+        ></button>
+      </div>
+      <button
+        id="reset"
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      >
+        Reset
+      </button>
+    </div>
+    <div id="game" class="flex-col gap-6 hidden">
+      <p id="message" class="text-5xl font-bold">New Game</p>
+      <button
+        id="new-game"
+        class="bg-black hover:bg-green-500 text-white font-bold py-4 px-4 rounded-lg"
+      >
+        New Game
+      </button>
+    </div>
+    <script src="../scripts/xo.js"></script>
+  </body>
+</html>
